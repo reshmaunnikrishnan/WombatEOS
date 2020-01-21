@@ -68,6 +68,7 @@
 		F77374FC23D64E2000D8AA1C /* NetworkResponseMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResponseMocks.swift; sourceTree = "<group>"; };
 		F77374FE23D65E9800D8AA1C /* EosioServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EosioServiceTests.swift; sourceTree = "<group>"; };
 		F773750223D6699300D8AA1C /* MainViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModelTests.swift; sourceTree = "<group>"; };
+		F7A8738123D7525F00A0A4DC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +168,7 @@
 			children = (
 				F72C007B23D4B07900503F41 /* UITextField+Publisher.swift */,
 				F7597E3123D505260003673E /* UIViewController+ActivityIndicator.swift */,
+				F7A8738123D7525F00A0A4DC /* README.md */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
