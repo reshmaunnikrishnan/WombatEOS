@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F711C60723D5EE9800CCB0B5 /* AccountViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F711C60623D5EE9800CCB0B5 /* AccountViewModelTests.swift */; };
+		F72C004C23D451DF00503F41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72C004B23D451DF00503F41 /* AppDelegate.swift */; };
+		F72C004E23D451DF00503F41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72C004D23D451DF00503F41 /* SceneDelegate.swift */; };
+		F72C005023D451DF00503F41 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72C004F23D451DF00503F41 /* MainViewController.swift */; };
+		F72C005323D451DF00503F41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F72C005123D451DF00503F41 /* Main.storyboard */; };
+		F72C005523D451E000503F41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F72C005423D451E000503F41 /* Assets.xcassets */; };
+		F72C005823D451E000503F41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F72C005623D451E000503F41 /* LaunchScreen.storyboard */; };
+		F72C007023D4541700503F41 /* EosioRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72C006F23D4541700503F41 /* EosioRouter.swift */; };
+		F72C007223D454A400503F41 /* NetworkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72C007123D454A400503F41 /* NetworkAPI.swift */; };
+		F72C007423D47F7000503F41 /* EosioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72C007323D47F7000503F41 /* EosioService.swift */; };
+		F72C007623D48E8800503F41 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72C007523D48E8800503F41 /* MainViewModel.swift */; };
+		F72C007823D4948C00503F41 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72C007723D4948C00503F41 /* Account.swift */; };
+		F72C007C23D4B07900503F41 /* UITextField+Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72C007B23D4B07900503F41 /* UITextField+Publisher.swift */; };
+		F72C008223D4E4C100503F41 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72C008123D4E4C100503F41 /* AccountViewController.swift */; };
+		F741150723D633A900319AAA /* mockaccount.json in Resources */ = {isa = PBXBuildFile; fileRef = F741150623D633A900319AAA /* mockaccount.json */; };
+		F741150A23D6361500319AAA /* NetworkAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F741150923D6361500319AAA /* NetworkAPITests.swift */; };
+		F741150D23D63C2A00319AAA /* URLProtocolMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F741150C23D63C2A00319AAA /* URLProtocolMock.swift */; };
+		F7597E3223D505260003673E /* UIViewController+ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7597E3123D505260003673E /* UIViewController+ActivityIndicator.swift */; };
+		F77374FD23D64E2000D8AA1C /* NetworkResponseMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77374FC23D64E2000D8AA1C /* NetworkResponseMocks.swift */; };
+		F77374FF23D65E9800D8AA1C /* EosioServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77374FE23D65E9800D8AA1C /* EosioServiceTests.swift */; };
+		F773750423D66B8900D8AA1C /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72C007D23D4BA1500503F41 /* AccountViewModel.swift */; };
+		F773750623D67DFA00D8AA1C /* MainViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F773750223D6699300D8AA1C /* MainViewModelTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F72C005F23D451E000503F41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F72C004023D451DF00503F41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F72C004723D451DF00503F41;
+			remoteInfo = WombatEOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F711C60623D5EE9800CCB0B5 /* AccountViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModelTests.swift; sourceTree = "<group>"; };
+		F72C004823D451DF00503F41 /* WombatEOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WombatEOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72C004B23D451DF00503F41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F72C004D23D451DF00503F41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F72C004F23D451DF00503F41 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F72C005223D451DF00503F41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F72C005423D451E000503F41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F72C005723D451E000503F41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F72C005923D451E000503F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F72C005E23D451E000503F41 /* WombatEOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WombatEOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72C006423D451E000503F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F72C006F23D4541700503F41 /* EosioRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EosioRouter.swift; sourceTree = "<group>"; };
+		F72C007123D454A400503F41 /* NetworkAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAPI.swift; sourceTree = "<group>"; };
+		F72C007323D47F7000503F41 /* EosioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EosioService.swift; sourceTree = "<group>"; };
+		F72C007523D48E8800503F41 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		F72C007723D4948C00503F41 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		F72C007B23D4B07900503F41 /* UITextField+Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Publisher.swift"; sourceTree = "<group>"; };
+		F72C007D23D4BA1500503F41 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		F72C008123D4E4C100503F41 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		F741150623D633A900319AAA /* mockaccount.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mockaccount.json; sourceTree = "<group>"; };
+		F741150923D6361500319AAA /* NetworkAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAPITests.swift; sourceTree = "<group>"; };
+		F741150C23D63C2A00319AAA /* URLProtocolMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLProtocolMock.swift; sourceTree = "<group>"; };
+		F7597E3123D505260003673E /* UIViewController+ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ActivityIndicator.swift"; sourceTree = "<group>"; };
+		F77374FC23D64E2000D8AA1C /* NetworkResponseMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResponseMocks.swift; sourceTree = "<group>"; };
+		F77374FE23D65E9800D8AA1C /* EosioServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EosioServiceTests.swift; sourceTree = "<group>"; };
+		F773750223D6699300D8AA1C /* MainViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModelTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F72C004523D451DF00503F41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72C005B23D451E000503F41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F72C003F23D451DF00503F41 = {
+			isa = PBXGroup;
+			children = (
+				F72C004A23D451DF00503F41 /* WombatEOS */,
+				F72C006123D451E000503F41 /* WombatEOSTests */,
+				F72C004923D451DF00503F41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F72C004923D451DF00503F41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F72C004823D451DF00503F41 /* WombatEOS.app */,
+				F72C005E23D451E000503F41 /* WombatEOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F72C004A23D451DF00503F41 /* WombatEOS */ = {
+			isa = PBXGroup;
+			children = (
+				F72C007A23D4B04B00503F41 /* Extensions */,
+				F72C007923D49BCA00503F41 /* Models */,
+				F72C006E23D453D900503F41 /* Networking */,
+				F72C006D23D4521800503F41 /* Scenes */,
+				F72C004B23D451DF00503F41 /* AppDelegate.swift */,
+				F72C004D23D451DF00503F41 /* SceneDelegate.swift */,
+				F72C005123D451DF00503F41 /* Main.storyboard */,
+				F72C005423D451E000503F41 /* Assets.xcassets */,
+				F72C005623D451E000503F41 /* LaunchScreen.storyboard */,
+				F72C005923D451E000503F41 /* Info.plist */,
+			);
+			path = WombatEOS;
+			sourceTree = "<group>";
+		};
+		F72C006123D451E000503F41 /* WombatEOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F773750023D6696B00D8AA1C /* Scenes */,
+				F741150B23D63C1500319AAA /* Mocks */,
+				F741150823D6356900319AAA /* Networking */,
+				F741150623D633A900319AAA /* mockaccount.json */,
+				F72C006423D451E000503F41 /* Info.plist */,
+			);
+			path = WombatEOSTests;
+			sourceTree = "<group>";
+		};
+		F72C006D23D4521800503F41 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				F72C008023D4E48B00503F41 /* Account */,
+				F72C007F23D4E46C00503F41 /* Main */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		F72C006E23D453D900503F41 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F72C006F23D4541700503F41 /* EosioRouter.swift */,
+				F72C007123D454A400503F41 /* NetworkAPI.swift */,
+				F72C007323D47F7000503F41 /* EosioService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		F72C007923D49BCA00503F41 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F72C007723D4948C00503F41 /* Account.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F72C007A23D4B04B00503F41 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F72C007B23D4B07900503F41 /* UITextField+Publisher.swift */,
+				F7597E3123D505260003673E /* UIViewController+ActivityIndicator.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F72C007F23D4E46C00503F41 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F72C007523D48E8800503F41 /* MainViewModel.swift */,
+				F72C004F23D451DF00503F41 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F72C008023D4E48B00503F41 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				F72C007D23D4BA1500503F41 /* AccountViewModel.swift */,
+				F72C008123D4E4C100503F41 /* AccountViewController.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		F741150823D6356900319AAA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F741150923D6361500319AAA /* NetworkAPITests.swift */,
+				F77374FE23D65E9800D8AA1C /* EosioServiceTests.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		F741150B23D63C1500319AAA /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				F741150C23D63C2A00319AAA /* URLProtocolMock.swift */,
+				F77374FC23D64E2000D8AA1C /* NetworkResponseMocks.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		F773750023D6696B00D8AA1C /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				F773750523D67D1C00D8AA1C /* Account */,
+				F773750123D6697500D8AA1C /* Main */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		F773750123D6697500D8AA1C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F773750223D6699300D8AA1C /* MainViewModelTests.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F773750523D67D1C00D8AA1C /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				F711C60623D5EE9800CCB0B5 /* AccountViewModelTests.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F72C004723D451DF00503F41 /* WombatEOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F72C006723D451E000503F41 /* Build configuration list for PBXNativeTarget "WombatEOS" */;
+			buildPhases = (
+				F72C004423D451DF00503F41 /* Sources */,
+				F72C004523D451DF00503F41 /* Frameworks */,
+				F72C004623D451DF00503F41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WombatEOS;
+			productName = WombatEOS;
+			productReference = F72C004823D451DF00503F41 /* WombatEOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F72C005D23D451E000503F41 /* WombatEOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F72C006A23D451E000503F41 /* Build configuration list for PBXNativeTarget "WombatEOSTests" */;
+			buildPhases = (
+				F72C005A23D451E000503F41 /* Sources */,
+				F72C005B23D451E000503F41 /* Frameworks */,
+				F72C005C23D451E000503F41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F72C006023D451E000503F41 /* PBXTargetDependency */,
+			);
+			name = WombatEOSTests;
+			productName = WombatEOSTests;
+			productReference = F72C005E23D451E000503F41 /* WombatEOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F72C004023D451DF00503F41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = ruvlmoon;
+				TargetAttributes = {
+					F72C004723D451DF00503F41 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					F72C005D23D451E000503F41 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = F72C004723D451DF00503F41;
+					};
+				};
+			};
+			buildConfigurationList = F72C004323D451DF00503F41 /* Build configuration list for PBXProject "WombatEOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F72C003F23D451DF00503F41;
+			productRefGroup = F72C004923D451DF00503F41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F72C004723D451DF00503F41 /* WombatEOS */,
+				F72C005D23D451E000503F41 /* WombatEOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F72C004623D451DF00503F41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72C005823D451E000503F41 /* LaunchScreen.storyboard in Resources */,
+				F72C005523D451E000503F41 /* Assets.xcassets in Resources */,
+				F72C005323D451DF00503F41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72C005C23D451E000503F41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F741150723D633A900319AAA /* mockaccount.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F72C004423D451DF00503F41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72C007623D48E8800503F41 /* MainViewModel.swift in Sources */,
+				F72C005023D451DF00503F41 /* MainViewController.swift in Sources */,
+				F72C007223D454A400503F41 /* NetworkAPI.swift in Sources */,
+				F72C007C23D4B07900503F41 /* UITextField+Publisher.swift in Sources */,
+				F72C008223D4E4C100503F41 /* AccountViewController.swift in Sources */,
+				F72C007423D47F7000503F41 /* EosioService.swift in Sources */,
+				F72C004C23D451DF00503F41 /* AppDelegate.swift in Sources */,
+				F72C007823D4948C00503F41 /* Account.swift in Sources */,
+				F7597E3223D505260003673E /* UIViewController+ActivityIndicator.swift in Sources */,
+				F72C007023D4541700503F41 /* EosioRouter.swift in Sources */,
+				F773750423D66B8900D8AA1C /* AccountViewModel.swift in Sources */,
+				F72C004E23D451DF00503F41 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72C005A23D451E000503F41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F711C60723D5EE9800CCB0B5 /* AccountViewModelTests.swift in Sources */,
+				F741150D23D63C2A00319AAA /* URLProtocolMock.swift in Sources */,
+				F741150A23D6361500319AAA /* NetworkAPITests.swift in Sources */,
+				F773750623D67DFA00D8AA1C /* MainViewModelTests.swift in Sources */,
+				F77374FD23D64E2000D8AA1C /* NetworkResponseMocks.swift in Sources */,
+				F77374FF23D65E9800D8AA1C /* EosioServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F72C006023D451E000503F41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F72C004723D451DF00503F41 /* WombatEOS */;
+			targetProxy = F72C005F23D451E000503F41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F72C005123D451DF00503F41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F72C005223D451DF00503F41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F72C005623D451E000503F41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F72C005723D451E000503F41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F72C006523D451E000503F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F72C006623D451E000503F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F72C006823D451E000503F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 782478PCZS;
+				INFOPLIST_FILE = WombatEOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ruvlmoon.com.org.WombatEOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F72C006923D451E000503F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 782478PCZS;
+				INFOPLIST_FILE = WombatEOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ruvlmoon.com.org.WombatEOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F72C006B23D451E000503F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 782478PCZS;
+				INFOPLIST_FILE = WombatEOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ruvlmoon.com.org.WombatEOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WombatEOS.app/WombatEOS";
+			};
+			name = Debug;
+		};
+		F72C006C23D451E000503F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 782478PCZS;
+				INFOPLIST_FILE = WombatEOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ruvlmoon.com.org.WombatEOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WombatEOS.app/WombatEOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F72C004323D451DF00503F41 /* Build configuration list for PBXProject "WombatEOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72C006523D451E000503F41 /* Debug */,
+				F72C006623D451E000503F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F72C006723D451E000503F41 /* Build configuration list for PBXNativeTarget "WombatEOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72C006823D451E000503F41 /* Debug */,
+				F72C006923D451E000503F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F72C006A23D451E000503F41 /* Build configuration list for PBXNativeTarget "WombatEOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72C006B23D451E000503F41 /* Debug */,
+				F72C006C23D451E000503F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F72C004023D451DF00503F41 /* Project object */;
+}
